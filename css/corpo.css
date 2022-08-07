@@ -1,0 +1,172 @@
+*{
+	/* DATA E HORA E SUAS CONFIGURAÇOES: LETRA 
+	E A TELA DE FUNDO VERDE    */
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", arial, helvetica;
+	
+	
+}
+
+
+
+.carregamento{
+	
+	/* IMAGEM DE CARREGAMENTO NO FUNDO   */
+	
+	position: absolute;
+	 z-index: 101; 
+	 background: url(imgs/bg.jpg); 
+	 width: 100%; height: 100%;
+	
+}
+
+.estado{
+	/* IMAGEM DE CARREGAMENTO  */
+	position: absolute; left: 45%; top: 40%;
+}
+
+.estado img{
+	/* IMAGEM DE CARREGAMENTO  */
+	height: 90px; width: 90px;
+}
+
+body{
+	
+	/* CORPO SEGUNDARIO O DA TRAS */
+	background-image: url(imgs/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 1000%;
+	
+}
+
+main{
+	
+	/* CORPO PRINCIPAL */
+	
+	position: relative; 
+	background: #fff; 
+	height: 780px; 
+	width: 955px;
+	margin: 0 auto;
+}
+
+header{
+	
+	/* CAMADA AONDE FICA O EEEP PADRE JOAO BOSCO  */
+	 
+	position: relative; 
+	background: #fff; 
+	margin: 0 auto; 
+	/* muda a cor da pequena barra no border-bottom  */
+	border-bottom: 5px solid #006600;
+	height: 130px; width: 943px;
+	border-bottom-right-radius: 3px;
+	
+}
+
+
+.eeep{
+	  /* iMAGEM EEEP PARDE JOAO BOSCO 
+	     SUAS CONFIGURACOES : POSICIONAMENTO
+	   */
+	  
+	  
+	position: absolute; left: 50px; top: 300%; transform: translateY(-50%);
+	width: 400px;
+	height: 100px;
+	background-image:url(imgs/E.E.E.P.png);
+	background-repeat: no-repeat;
+	background-size: 400px 215px;
+	background-position: left;
+	transition: all 0.1s ease-in-out;
+	
+	
+	
+}
+
+.eeep:hover{
+	/* tamanho da letra do EEEP PADRE JOAO BOSCO DE LIMA quando passar o mouse 
+	   */
+	background-size: 380px 205px;
+	
+}
+
+.top-barra{
+	/* CAMADA AONDE FICA O SIGE E.P
+	   */
+	position: relative; margin: 0 auto; background: #3CB371; height: 30px; width: 943px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; 
+}
+
+.top-barra h1{
+	
+	/* LETRA DO SIGE E.P 
+	   */
+	color: #fff; margin-left: 3%; margin-top: 0.4%; font-size: 1.0em; font-weight: normal; position: absolute;
+}
+
+
+.data{
+	/* CAMADA DA DATA E HORA  
+	   */
+	background: #2E8B57; position: absolute; right: 0px; bottom: -5px;
+	width: 255px; height: 30px; border-radius: 3px; 
+}
+
+.data img{
+	position: absolute; left: 20px; top: 7px;
+}
+
+.data p{
+	/* LETRA DA DATA E HORA 
+	   */
+	color: #fff; position: absolute; left: 45px; top: 7px; font-size: 13px;
+}
+
+.data:after{
+	position: absolute;
+	bottom: 0px; left: -10px;
+
+	content: "";
+	display: inline-block;
+	border-top: 5px transparent solid;
+	border-left: 5px transparent solid;
+	border-right: 10px #2E8B57 solid;
+	border-bottom: 5px transparent solid;
+}
+.data:before{
+	position: absolute;
+	bottom: 0px; left: -18px;
+
+	content: "";
+	background: #2E8B57;
+	width: 50px;
+	height: 5px;
+}
+
+
+
+footer{
+	
+	/* CAMADA DO RODAPE  
+	   */
+	position: absolute;
+	 width: 943px;
+	  height: 60px; 
+	  left: 0.62%;
+	   border-top: 3.5px solid #006400;  
+	   bottom: 0px;
+	 
+}
+
+footer p{
+	
+	 /* TEXTO DO RODAPE 
+	   */
+	
+	text-align: center; 
+	line-height: 55px; 
+	color: #096; 
+	font-size: 12px;
+}
