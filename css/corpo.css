@@ -1,0 +1,189 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", arial, helvetica;
+}
+
+a{
+	text-decoration: none;
+}
+
+.carregamento{
+	position: absolute; z-index: 101; background: url(imgs/bg.jpg); width: 100%; height: 100%;
+}
+
+.estado{
+	position: absolute; left: 45%; top: 40%;
+}
+
+.estado img{
+	height: 90px; width: 90px;
+}
+
+body{
+	background-image: url(imgs/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 1000%;
+}
+
+main{
+	position: relative; background: #fff; height: 590px; width: 955px; margin: 0 auto;
+}
+
+header{
+	position: relative; background: #fff; margin: 0 auto; border-bottom: 5px solid #d3d3d3;
+	height: 130px; width: 943px;
+	border-bottom-right-radius: 3px;
+}
+
+.content-conteudo{
+	position: relative; margin: 0px auto;
+	width: 98.6%; height: 392px;
+}
+
+.menu{
+	position: absolute; top: 2px;
+	width: 100%; height: auto;
+	background: #2E8B57; border-bottom: 3px solid rgba(0,0,0, 0.5);
+	z-index: 100;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	float: left; color: #fff; padding: 10px; cursor: pointer;
+}
+
+.menu ul li:hover{
+	background: #3CB371;
+}
+
+.sub{
+	display: none; 
+	position: absolute; top: 39px; left: 0px;
+	height: 120px; width: 100%;
+	background: #3CB371;
+	border-bottom: 3px solid rgba(0,0,0, 0.5);
+}
+
+.sub ul li{
+	float: none; color: #fff;
+}
+
+.sub ul li:hover{
+	background: transparent;
+	color: #d3d3d3;
+}
+
+.sub #n1{
+	position: relative; float: left; width: 313.88px;
+}
+
+.sub #n2{
+	position: relative; float: left; width: 313.88px;
+}
+
+.sub #n3{
+	position: relative; float: left; width: 313.88px;
+}
+
+.eeep{
+	position: absolute; left: 30px; top: 66%; transform: translateY(-50%);
+	width: 400px;
+	height: 100px;
+	background-image: url(imgs/E.E.E.P.png);
+	background-repeat: no-repeat;
+	background-size: 400px 215px;
+	background-position: center;
+	transition: all 0.1s ease-in-out;
+}
+
+.eeep:hover{
+	background-size: 390px 205px;
+}
+
+.top-barra{
+	position: relative; margin: 0 auto; background: #3CB371; height: 30px; width: 943px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; 
+}
+
+.top-barra h1{
+	color: #fff; margin-left: 3%; margin-top: 0.4%; font-size: 1.0em; font-weight: normal; position: absolute;
+}
+
+.sair{
+	position: absolute; right: 10px;
+	height: 100%;
+}
+
+.sair:hover img{
+	animation: sair 0.4s 2;
+}
+
+.sair img{
+	position: relative; top: 5px;
+}
+
+.sair span{
+	position: relative; top: 2px;
+	font-size: 0.9em; color: #fff;
+}
+
+@keyframes sair{
+	from{
+		left: 0px;
+	}
+	to{
+		left: -4px;
+	}
+}
+
+.data{
+	background: #2E8B57; position: absolute; right: 0px; bottom: -5px;
+	width: 255px; height: 30px; border-radius: 3px; 
+}
+
+.data img{
+	position: absolute; left: 20px; top: 7px;
+}
+
+.data p{
+	color: #fff; position: absolute; left: 45px; top: 7px; font-size: 13px;
+}
+
+.data:after{
+	position: absolute;
+	bottom: 0px; left: -10px;
+
+	content: "";
+	display: inline-block;
+	border-top: 5px transparent solid;
+	border-left: 5px transparent solid;
+	border-right: 10px #2E8B57 solid;
+	border-bottom: 5px transparent solid;
+}
+.data:before{
+	position: absolute;
+	bottom: 0px; left: -18px;
+
+	content: "";
+	background: #2E8B57;
+	width: 50px;
+	height: 5px;
+}
+
+.sbv{
+	position: absolute; left: 50%; transform: translateX(-50%); top: 105px;
+	width: 500px; height: 250px;
+	background: url(imgs/sbv.png) center no-repeat;
+	background-size: 460px 210px;
+}
+
+footer{
+	position: absolute; width: 943px; height: 60px; left: 0.62%; border-top: 3.5px solid #006400;  bottom: 0px;
+}
+
+footer p{
+	text-align: center; line-height: 55px; color: #2E8B57; font-size: 12px;
+}

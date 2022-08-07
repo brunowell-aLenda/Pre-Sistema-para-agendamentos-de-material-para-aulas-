@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", arial, helvetica;
+}
+
+.carregamento{
+	position: absolute; z-index: 1; background: url(imgs/bg.jpg); width: 100%; height: 100%;
+}
+
+.estado{
+	position: absolute; left: 45%; top: 40%;
+}
+
+.estado img{
+	height: 90px; width: 90px;
+}
+
+body{
+	background-image: url(imgs/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 1000%;
+}
+
+main{
+	position: relative; background: #fff; height: 590px; width: 955px; margin: 0 auto;
+}
+
+header{
+	position: relative; background: #fff; margin: 0 auto; border-bottom: 5px solid #d3d3d3;
+	height: 130px; width: 943px;
+	border-bottom-right-radius: 3px;
+}
+
+.eeep{
+	position: absolute; left: 30px; top: 66%; transform: translateY(-50%);
+	width: 400px;
+	height: 100px;
+	background-image: url(imgs/E.E.E.P.png);
+	background-repeat: no-repeat;
+	background-size: 400px 215px;
+	background-position: center;
+	transition: all 0.1s ease-in-out;
+}
+
+.eeep:hover{
+	background-size: 390px 205px;
+}
+
+.top-barra{
+	position: relative; margin: 0 auto; background: #3CB371; height: 30px; width: 943px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; 
+}
+
+.top-barra h1{
+	color: #fff; margin-left: 3%; margin-top: 0.4%; font-size: 1.0em; font-weight: normal; position: absolute;
+}
+
+.data{
+	background: #2E8B57; position: absolute; right: 0px; bottom: -5px;
+	width: 255px; height: 30px; border-radius: 3px; 
+}
+
+.data img{
+	position: absolute; left: 20px; top: 7px;
+}
+
+.data p{
+	color: #fff; position: absolute; left: 45px; top: 7px; font-size: 13px;
+}
+
+.data:after{
+	position: absolute;
+	bottom: 0px; left: -10px;
+
+	content: "";
+	display: inline-block;
+	border-top: 5px transparent solid;
+	border-left: 5px transparent solid;
+	border-right: 10px #2E8B57 solid;
+	border-bottom: 5px transparent solid;
+}
+.data:before{
+	position: absolute;
+	bottom: 0px; left: -18px;
+
+	content: "";
+	background: #2E8B57;
+	width: 50px;
+	height: 5px;
+}
+
+footer{
+	position: absolute; width: 943px; height: 60px; left: 0.62%; border-top: 3.5px solid #006400;  bottom: 0px;
+}
+
+footer p{
+	text-align: center; line-height: 55px; color: #2E8B57; font-size: 12px;
+}
+
+#login-falso{
+	width: 100%; position: relative; height: 250px;
+	top: 65px;
+}
+
+fieldset{
+	border: 1px dashed #d3d3d3;
+	position: absolute;
+	left: 32%;
+	width: 350px; height: 100%;
+}
+
+fieldset ul{
+	list-style: none;
+}
+
+fieldset a{
+	position: absolute; color: #4F4F4F; margin-top: 10px; left: 65px; font-size: 12px;
+}
+
+fieldset span{
+	color: #222; font-size: 13px; margin-left: 10px; margin-top: 18px; position: absolute;
+}
+
+fieldset input{
+	padding: 5px; margin-top: 20px; margin-left: 70px; 
+}
+
+fieldset input:focus{
+	background: #d3d3d3; outline: solid 1px #2E8B57; padding: 5px;
+}
+
+#env{
+	background: #2E8B57; border: none; border-radius: 2px; padding: 5px; padding-left: 25px; padding-right: 25px; position: absolute;
+	color: #fff; top: 150px; margin-left: 90px;
+}
+
+#env:hover{
+	cursor: pointer; background: #d3d3d3; outline: #2E8B57 1px solid; transition: all 0.2s ease-in-out;
+}
+
+legend {
+	color: #2E8B57;
+    margin-left: 10px;
+    padding-left: 10px; 
+    padding-right: 28px; 
+}
+
+legend img{
+	position: absolute; top: -20px; height: 35px; width: 35px;
+}
+legend span{
+	position: relative; left: 25px; top: -7px; color: #2E8B57; font-weight: bold;
+}
